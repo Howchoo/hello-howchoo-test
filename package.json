@@ -1,0 +1,23 @@
+{
+  "name": "hello-howchoo-test",
+  "version": "1.0.0",
+  "description": "Test using a package from GitHub Package Registry.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Howchoo/hello-howchoo-test.git"
+  },
+  "author": "Tyler Jones",
+  "license": "ISC",
+  "dependencies": {
+    "@josephtyler/hello-howchoo-npm": "^1.0.3",
+    "lodash": "^4.17.15"
+  },
+  "bugs": {
+    "url": "https://github.com/Howchoo/hello-howchoo-test/issues"
+  },
+  "homepage": "https://github.com/Howchoo/hello-howchoo-test#readme"
+}
